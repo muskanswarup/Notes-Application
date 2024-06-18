@@ -1,0 +1,1 @@
+React is a JavaScript library for building user interfaces. It is declarative, efficient, and flexible. React makes it easy to create interactive UIs by using a component-based approach. Components are small, reusable pieces of code that can be combined to create complex UIs. React also uses a virtual DOM, which makes it very efficient at updating the UI.
