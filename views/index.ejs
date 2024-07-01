@@ -8,6 +8,7 @@
 </head>
 <body>
     <div class="main w-full min-h-screen bg-zinc-900 text-white">
+        <h1 class="text-5xl p-5 bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text ml-5">Notes Taking Application</h1>
         <div class="form p-10">
             <form action="/create" method="post" >
                 <input type="text" name="title" class="block px-5 py-2 bg-zinc-700 w-full rounded-lg" placeholder="Title goes here...">
@@ -20,7 +21,7 @@
 
             <% if(files.length > 0){ %>
             <% files.forEach(function(val){ %>
-                    <div class="task w-72 px-3 py-4  bg-zinc-600 rounded-lg text-xl mb-2">
+                    <div class="task w-72 px-3 py-4  bg-zinc-600 rounded-lg text-xl mb-2 ">
                         <h1 class="text-lime-200 p-2"> <%= val %> </h1>
                         
                         <div class="flex w-full justify-between items-center">
